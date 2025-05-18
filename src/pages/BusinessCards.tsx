@@ -31,12 +31,6 @@ const BusinessCards = () => {
                   alt="Логотип ВОССТАНОВЛЕНИЕ" 
                   className="business-card-logo"
                 />
-                <div className="business-card-contact">
-                  <p>Адрес: г. Москва, ул. Примерная, 123</p>
-                  <p>Тел: +7 (999) 123-45-67</p>
-                  <p>Email: info@vosstanovlenie.ru</p>
-                  <p>www.vosstanovlenie.ru</p>
-                </div>
               </div>
             </div>
           ))}
@@ -66,7 +60,7 @@ const BusinessCards = () => {
             padding: 0;
           }
           
-          button, h1, p:not(.business-card-contact p) {
+          button, h1, p {
             display: none;
           }
           
@@ -102,25 +96,13 @@ const BusinessCards = () => {
           display: flex;
           flex-direction: column;
           align-items: center;
-          justify-content: space-between;
+          justify-content: center;
         }
         
         .business-card-logo {
           width: 80%;
-          max-height: 60%;
+          max-height: 80%;
           object-fit: contain;
-        }
-        
-        .business-card-contact {
-          width: 100%;
-          text-align: center;
-          font-size: 8pt;
-          line-height: 1.2;
-        }
-        
-        .business-card-contact p {
-          margin: 2px 0;
-          display: block !important;
         }
       `}</style>
     </div>
