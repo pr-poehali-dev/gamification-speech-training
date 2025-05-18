@@ -12,7 +12,7 @@ const BusinessCards = () => {
   return (
     <div className="p-8 max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold mb-4">Макет визиток для печати</h1>
-      <p className="mb-6 text-gray-600">Формат А4, 6 визиток на каждой стороне листа (сетка 3×2)</p>
+      <p className="mb-6 text-gray-600">Формат А4, 6 визиток в столбец на каждой стороне листа</p>
       
       <div className="mb-6 flex flex-col sm:flex-row gap-4">
         <Button 
@@ -25,8 +25,8 @@ const BusinessCards = () => {
         <div className="print:hidden">
           <Tabs defaultValue="front" value={activeSide} onValueChange={setActiveSide}>
             <TabsList>
-              <TabsTrigger value="front">Лицевая сторона</TabsTrigger>
-              <TabsTrigger value="back">Обратная сторона</TabsTrigger>
+              <TabsTrigger value="front">Левый столбец</TabsTrigger>
+              <TabsTrigger value="back">Правый столбец</TabsTrigger>
             </TabsList>
           </Tabs>
         </div>
@@ -35,9 +35,9 @@ const BusinessCards = () => {
       <div className="print:hidden mb-6 p-4 bg-amber-50 border border-amber-200 rounded-md">
         <h2 className="font-medium mb-2">Инструкция по печати:</h2>
         <ol className="list-decimal list-inside space-y-1">
-          <li>Выберите и распечатайте сначала лицевую сторону</li>
-          <li>Переверните лист согласно инструкции вашего принтера</li>
-          <li>Выберите и распечатайте обратную сторону</li>
+          <li>Распечатайте сначала левый столбец</li>
+          <li>Вставьте лист повторно в принтер</li>
+          <li>Распечатайте правый столбец</li>
           <li>Разрежьте лист по пунктирным линиям</li>
         </ol>
       </div>
@@ -138,8 +138,8 @@ const BusinessCards = () => {
           width: 100%;
           height: 100%;
           display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          grid-template-rows: repeat(2, 1fr);
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(6, 1fr);
           gap: 0;
         }
         
@@ -155,8 +155,8 @@ const BusinessCards = () => {
         }
         
         .business-card-content {
-          width: 100%;
-          height: 100%;
+          width: 90mm;
+          height: 50mm;
           display: flex;
           flex-direction: column;
           align-items: center;
