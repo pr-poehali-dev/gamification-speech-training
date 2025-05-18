@@ -2,7 +2,7 @@
 import React from 'react';
 
 const BusinessCards = () => {
-  // Стандартные размеры визитки 90×50 мм
+  // Стандартные размеры визитки 90×50 мм (9×5 см)
   // На листе А4 (210×297 мм) можно разместить 12 визиток в сетке 3×4
   
   // Массив с 12 одинаковыми визитками
@@ -11,7 +11,7 @@ const BusinessCards = () => {
   return (
     <div className="p-4">
       <h1 className="text-2xl font-bold mb-4">Макет визиток для печати</h1>
-      <p className="mb-4">Формат А4, 12 визиток (сетка 3×4)</p>
+      <p className="mb-4">Формат А4, 12 визиток (сетка 3×4) размером 9×5 см</p>
       
       <button 
         onClick={() => window.print()} 
@@ -66,7 +66,7 @@ const BusinessCards = () => {
             padding: 0;
           }
           
-          button, h1, p {
+          button, h1, p:not(.business-card-contact p) {
             display: none;
           }
           
@@ -87,7 +87,7 @@ const BusinessCards = () => {
         
         .business-card {
           border: 1px dashed #ccc;
-          padding: 5mm;
+          padding: 3mm;
           box-sizing: border-box;
           width: 100%;
           height: 100%;
