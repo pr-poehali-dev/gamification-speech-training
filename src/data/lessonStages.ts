@@ -58,12 +58,23 @@ export const fgosLessonStages = {
           "🎯 Word-Picture Match: +2 балла за каждое правильное соответствие",
       },
       {
+        step: "🎲 Vocabulary Dice Game",
+        teacher:
+          "Roll the dice and get your vocabulary challenge! 1-2 = Draw it, 3-4 = Act it out, 5-6 = Explain without saying the word. Each team gets 3 rolls!",
+        students:
+          "Бросают кубик, выполняют задания: рисуют, показывают жестами или объясняют слова",
+        time: "4 мин",
+        materials: "Большой кубик, карточки со словами, доска для рисования",
+        gameElement:
+          "🎲 Triple Challenge: команда, угадавшая все 3 слова = +18 баллов",
+      },
+      {
         step: "Семантизация лексики",
         teacher:
           "Now let's understand these words better. I'll give you definitions, and you guess the word. For example: 'A school where students live and study' - boarding school. Your turn!",
         students:
           "Угадывают слова по дефинициям, объясняют значения новых слов",
-        time: "6 мин",
+        time: "2 мин",
         materials: "Карточки с дефинициями, словари, интерактивная доска",
         gameElement:
           "🧩 Definition Game: самый быстрый правильный ответ = +5 баллов",
@@ -106,28 +117,39 @@ export const fgosLessonStages = {
     pedagogicalGoal: "Закрепление новых знаний в речевых упражнениях",
     activities: [
       {
+        step: "🎪 Цирк Школьных Предметов",
+        teacher:
+          "Welcome to the School Subject Circus! Each subject is a circus act. Math = Juggling numbers, PE = Acrobatics, Art = Magic tricks. Present your act in 1 minute!",
+        students:
+          "Представляют школьные предметы как цирковые номера, используют движения и реквизит",
+        time: "3 мин",
+        materials: "Цирковые атрибуты (шляпы, мячи, ленты), музыка, таймер",
+        gameElement:
+          "🎪 Best Performer: самый креативный номер = +20 баллов + звание 'Circus Star'",
+      },
+      {
+        step: "📱 TikTok Challenge: Школьная Форма",
+        teacher:
+          "Create a 30-second TikTok video about school uniform pros and cons. Use trending sounds, dance moves, and hashtags. Teams compete for most creative content!",
+        students:
+          "Создают короткие видео о школьной форме, используют популярные тренды и музыку",
+        time: "4 мин",
+        materials:
+          "Планшеты/телефоны, реквизит для съемки, список трендовых звуков",
+        gameElement:
+          "🎥 Viral Star: самое креативное видео = +25 баллов + публикация в школьном Instagram",
+      },
+      {
         step: "🎭 Модный показ школьной формы",
         teacher:
           "Welcome to our Fashion Show! Each team presents different school uniforms from around the world. Describe what models are wearing, explain pros and cons, and vote for the best uniform!",
         students:
           "Проводят мини-показ мод, описывают форму разных стран, аргументируют выбор лучшей формы",
-        time: "5 мин",
+        time: "3 мин",
         materials:
           "Фото школьной формы разных стран, подиум (класс), карточки для голосования",
         gameElement:
           "👗 Fashion Show Champion: лучшая презентация = +15 баллов + титул 'Best Designer'",
-      },
-      {
-        step: "💬 Speed Dating: Школьные предметы",
-        teacher:
-          "Time for Speed Dating with school subjects! Move every 2 minutes. Ask: 'What's your relationship with Math?' Answer like subjects are people: 'Math and I are best friends!' or 'History ignores me!'",
-        students:
-          "Быстро меняют партнеров, обсуждают отношения с предметами как с людьми, используют юмор",
-        time: "5 мин",
-        materials:
-          "Карточки-предметы с 'личностями', музыка для смены партнеров, таймер",
-        gameElement:
-          "💕 Dating Master: самый креативный 'роман' с предметом = +12 баллов",
       },
     ],
   },
@@ -166,12 +188,24 @@ export const fgosLessonStages = {
     pedagogicalGoal: "Подведение итогов урока, рефлексия и домашнее задание",
     activities: [
       {
+        step: "🎮 Escape Room: Vocabulary Exit",
+        teacher:
+          "To escape the classroom, solve 3 vocabulary puzzles! Team 1: Crossword, Team 2: Word search, Team 3: Anagram challenge. Complete all to unlock the exit!",
+        students:
+          "Решают головоломки со словами, работают в командах, соревнуются на время",
+        time: "2 мин",
+        materials:
+          "Кроссворды, анаграммы, поиск слов, замок-головоломка для 'выхода'",
+        gameElement:
+          "🔓 Escape Masters: первая команда, решившая все головоломки = +30 баллов",
+      },
+      {
         step: "🌟 Звездная рефлексия",
         teacher:
           "Rate today's lesson like a movie! Give stars ⭐ for different parts: new words, activities, your mood. Then record a 30-second TikTok-style review of our lesson!",
         students:
           "Оценивают урок по-звездному, записывают короткие видео-отзывы, делятся впечатлениями",
-        time: "4 мин",
+        time: "3 мин",
         materials:
           "Звездочки-стикеры, планшеты/телефоны для записи, рамка для 'TikTok'",
         gameElement:
@@ -183,7 +217,7 @@ export const fgosLessonStages = {
           "Your mission, should you choose to accept it: Create a 'School Uniform Design Challenge' post for Instagram. Include: your ideal uniform sketch, 3 hashtags, and explain why it's perfect!",
         students:
           "Получают творческое задание в стиле квеста, планируют создание креативного контента",
-        time: "3 мин",
+        time: "2 мин",
         materials:
           "Карточки-миссии, примеры Instagram-постов, QR-код с инструкцией",
         gameElement:
