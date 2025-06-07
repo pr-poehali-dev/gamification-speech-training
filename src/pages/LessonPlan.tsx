@@ -5,7 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Icon from "@/components/ui/icon";
 
 const LessonPlan = () => {
-  const [activeStage, setActiveStage] = useState("organization");
+  const [activeStage, setActiveStage] = useState("prep-motivation");
 
   const lessonData = {
     title: "Education & School Life Quest",
@@ -20,6 +20,214 @@ const LessonPlan = () => {
         "Развитие коммуникативных навыков через игровые задания, критического мышления через квест-активности",
       upbringing:
         "Формирование позитивного отношения к образованию и школьной жизни через геймификацию",
+    },
+    plannedResults: {
+      subject: {
+        knowledge: [
+          "Знание лексических единиц по теме 'School Life' (Spotlight 8, Module 3a): attend, boarding school, co-educational, dull, exciting, experience, extra-curricular, facility, higher education, participate, private school, public school, scholarship, state school, uniform, unusual",
+          "Понимание различий между Past Perfect, Past Perfect Continuous, Past Simple, Past Continuous",
+          "Знание правил образования и употребления прошедших времен в контексте",
+        ],
+        skills: [
+          "Умение использовать новую лексику в устной и письменной речи",
+          "Умение правильно употреблять Past Perfect для выражения действий, завершившихся до определенного момента в прошлом",
+          "Умение использовать Past Perfect Continuous для выражения длительных действий до определенного момента в прошлом",
+          "Умение строить временные последовательности событий, используя различные прошедшие времена",
+          "Умение выражать свое отношение к школьным предметам и школьной жизни",
+        ],
+      },
+      metasubject: {
+        regulatory: [
+          "Планирование - умение определять последовательность действий в рамках квеста",
+          "Контроль - способность отслеживать правильность выполнения грамматических конструкций",
+          "Коррекция - умение исправлять ошибки в речи на основе обратной связи",
+          "Оценка - способность оценивать результаты своей деятельности и деятельности команды",
+          "Саморегуляция - умение мобилизовать силы для достижения целей урока",
+        ],
+        cognitive: [
+          "Общеучебные - поиск и выделение информации в текстах о школьной жизни",
+          "Логические - анализ грамматических структур, синтез при создании временных линий",
+          "Постановка и решение проблем - самостоятельное решение квест-заданий",
+          "Знаково-символические - использование схем и таблиц для систематизации грамматического материала",
+        ],
+        communicative: [
+          "Планирование сотрудничества - определение ролей в команде",
+          "Управление поведением партнера - координация действий в групповой работе",
+          "Умение выражать свои мысли - четкое формулирование ответов на английском языке",
+          "Владение диалогической речью - участие в обсуждениях и презентациях",
+        ],
+      },
+      personal: [
+        "Смыслообразование - понимание значимости изучения английского языка для личностного развития",
+        "Нравственно-этическая ориентация - уважительное отношение к различным системам образования",
+        "Самоопределение - формирование мотивации к обучению и саморазвитию",
+        "Толерантность - принятие различных точек зрения на школьную жизнь",
+        "Ответственность - осознание важности командной работы и взаимопомощи",
+      ],
+    },
+  };
+
+  const combinedLessonStages = {
+    "prep-motivation": {
+      title: "🎯 1. Подготовительно-мотивационный этап",
+      duration: "5 минут",
+      pedagogicalGoal: "Создание мотивации, актуализация знаний",
+      activities: [
+        {
+          step: "School Life Warm-up Challenge",
+          teacher:
+            "Welcome to our Education Quest! Let's start with a quick challenge. Look at these emojis and guess the school subjects: 🧮 📚 🧪 🎨",
+          students:
+            "Разгадывают emoji-загадки, актуализируют знания о школьных предметах",
+          time: "3 мин",
+          materials: "Interactive board, emoji cards",
+          gameElement:
+            "⭐ Команды получают +5 баллов за каждый правильный ответ",
+        },
+        {
+          step: "Goal Setting & Mission Briefing",
+          teacher:
+            "Today we're detectives solving the mystery of the Perfect School Day! What do you think we'll learn about school life and grammar?",
+          students: "Формулируют цели урока, выдвигают гипотезы о содержании",
+          time: "2 мин",
+          materials: "Mission cards, goal-setting worksheets",
+          gameElement: "🎯 Каждая команда получает детективный бейдж",
+        },
+      ],
+    },
+    presentation: {
+      title: "📚 2. Презентационный этап",
+      duration: "8 минут",
+      pedagogicalGoal: "Введение нового материала",
+      activities: [
+        {
+          step: "Vocabulary Treasure Hunt",
+          teacher:
+            "Find the hidden words around the classroom! Each word from Spotlight 8 p.42-43 is worth different points. Let's discover new school vocabulary!",
+          students:
+            "Ищут спрятанные карточки со словами, изучают новую лексику через контекст",
+          time: "5 мин",
+          materials:
+            "Hidden vocabulary cards (Spotlight 8 p.42), treasure chest, mind map templates",
+          gameElement:
+            "💎 Редкие слова стоят больше баллов. Achievement: 'Vocabulary Hunter'",
+        },
+        {
+          step: "Grammar Timeline Introduction",
+          teacher:
+            "Look at this school story timeline. Notice how we use different past tenses to show when things happened. Past Perfect shows what happened first, Past Simple shows main events...",
+          students:
+            "Анализируют примеры употребления прошедших времен, выводят правила",
+          time: "3 мин",
+          materials:
+            "Grammar timeline poster, example sentences, reference cards",
+          gameElement: "🔍 Интерактивная временная линия с анимацией",
+        },
+      ],
+    },
+    practice: {
+      title: "🎮 3. Практический этап",
+      duration: "22 минуты",
+      pedagogicalGoal: "Отработка и закрепление материала",
+      activities: [
+        {
+          step: "Station 1: Past Time Detective Work (Первичное закрепление)",
+          teacher:
+            "Solve the grammar mystery! Read school stories and find examples of Past Perfect, Past Perfect Continuous, Past Simple, Past Continuous. Timeline detectives - arrange events in correct order!",
+          students:
+            "Анализируют тексты, находят различные прошедшие времена, составляют временные линии",
+          time: "6 мин",
+          materials:
+            "School life stories with mixed past tenses, detective worksheets",
+          gameElement:
+            "🔍 За каждое правильно найденное время +5 баллов. Badge: 'Time Detective'",
+        },
+        {
+          step: "Station 2: School Subjects Battle (Активизация лексики)",
+          teacher:
+            "Time for subjects showdown! Teams compete in describing subjects using only actions - no words allowed! Express your attitude to different subjects!",
+          students:
+            "Показывают предметы через пантомиму, выражают отношение к предметам",
+          time: "6 мин",
+          materials:
+            "Subject cards from Spotlight 8, opinion expression templates",
+          gameElement:
+            "⚡ Быстрые ответы дают x2 баллы. Award: 'Drama King/Queen'",
+        },
+        {
+          step: "Station 3: Perfect School Day Design (Применение знаний)",
+          teacher:
+            "Create the ultimate school timetable using new vocabulary and past tenses! Tell us what had happened in your ideal school day!",
+          students:
+            "Создают идеальное расписание, используя новую лексику и грамматику",
+          time: "6 мин",
+          materials: "Design sheets, vocabulary bank, timeline helpers",
+          gameElement: "🎨 Golden Schedule Award (+25 баллов) за креативность",
+        },
+        {
+          step: "Station 4: Memory Timeline Challenge (Контроль усвоения)",
+          teacher:
+            "Share your school memories! Tell about what had happened before you started this school, what you had been doing, using all past tenses correctly!",
+          students:
+            "Рассказывают школьные воспоминания, используя все прошедшие времена",
+          time: "4 мин",
+          materials: "Memory templates, grammar checklist",
+          gameElement: "⚡ Правильное использование всех времен = 20 баллов",
+        },
+      ],
+    },
+    control: {
+      title: "✅ 4. Контрольно-оценочный этап",
+      duration: "7 минут",
+      pedagogicalGoal: "Проверка усвоения, оценка результатов",
+      activities: [
+        {
+          step: "Grammar & Vocabulary Quick Assessment",
+          teacher:
+            "Let's check your quest progress! Complete these school life sentences using correct past tenses and new vocabulary. Self-assess your work!",
+          students:
+            "Выполняют контрольные задания, проводят самооценку и взаимооценку",
+          time: "4 мин",
+          materials: "Assessment cards, self-evaluation rubrics, answer keys",
+          gameElement: "📊 Честная самооценка дает bonus points за рефлексию",
+        },
+        {
+          step: "Victory Ceremony & Achievement Recognition",
+          teacher:
+            "Let's crown our Education Champions! What was the most challenging part? Which grammar rule is now clearer?",
+          students:
+            "Празднуют успехи, анализируют трудности, получают обратную связь",
+          time: "3 мин",
+          materials: "Certificates, achievement badges, feedback forms",
+          gameElement: "🏆 Персональные достижения и командные титулы",
+        },
+      ],
+    },
+    homework: {
+      title: "🏠 5. Информационно-инструктивный этап",
+      duration: "3 минуты",
+      pedagogicalGoal: "Объяснение домашнего задания, рефлексия",
+      activities: [
+        {
+          step: "Quest Completion & Creative Homework Mission",
+          teacher:
+            "Your homework quest: Write a school diary entry about an important day from your past! Use all four past tenses and at least 10 new vocabulary words. Include timeline!",
+          students:
+            "Принимают домашнее задание, планируют выполнение творческой работы",
+          time: "2 мин",
+          materials: "Diary templates, checklist, grammar helpers, QR codes",
+          gameElement: "📱 Best diaries join School Memories Exhibition",
+        },
+        {
+          step: "Final Reflection & Level Assessment",
+          teacher:
+            "Rate your adventure! Show your confidence level: Beginner Explorer (1-2), Confident Navigator (3-4), Master Detective (5)!",
+          students: "Оценивают прогресс, рефлексируют о достижении целей урока",
+          time: "1 мин",
+          materials: "Reflection cards, progress tracker",
+          gameElement: "⭐ Personal achievement badge по итогам урока",
+        },
+      ],
     },
   };
 
@@ -329,32 +537,46 @@ const LessonPlan = () => {
           onValueChange={setActiveStage}
           className="w-full"
         >
-          <TabsList className="grid w-full grid-cols-3 mb-6 h-12">
-            <TabsTrigger value="organization" className="text-sm font-semibold">
-              🎯 Организационный
+          <TabsList className="grid w-full grid-cols-5 mb-6 h-12 text-xs">
+            <TabsTrigger value="prep-motivation" className="font-semibold">
+              🎯 Мотивационный
             </TabsTrigger>
-            <TabsTrigger value="main" className="text-sm font-semibold">
-              🎮 Основной
+            <TabsTrigger value="presentation" className="font-semibold">
+              📚 Презентационный
             </TabsTrigger>
-            <TabsTrigger value="conclusion" className="text-sm font-semibold">
-              🏆 Заключительный
+            <TabsTrigger value="practice" className="font-semibold">
+              🎮 Практический
+            </TabsTrigger>
+            <TabsTrigger value="control" className="font-semibold">
+              ✅ Контрольный
+            </TabsTrigger>
+            <TabsTrigger value="homework" className="font-semibold">
+              🏠 Домашнее задание
             </TabsTrigger>
           </TabsList>
 
-          {Object.entries(stages).map(([key, stage]) => (
+          {Object.entries(combinedLessonStages).map(([key, stage]) => (
             <TabsContent key={key} value={key}>
               <Card className="border-2 shadow-lg">
                 <CardHeader className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-t-lg">
-                  <div className="flex justify-between items-center">
-                    <CardTitle className="text-2xl">{stage.title}</CardTitle>
-                    <Badge
-                      variant="secondary"
-                      className="text-lg px-4 py-2 bg-white text-indigo-800"
-                    >
-                      <Icon name="Clock" size={16} className="mr-1" />
-                      {stage.duration}
-                    </Badge>
+                  <div className="flex justify-between items-center flex-wrap gap-2">
+                    <CardTitle className="text-xl md:text-2xl">
+                      {stage.title}
+                    </CardTitle>
+                    <div className="flex gap-2">
+                      <Badge
+                        variant="secondary"
+                        className="text-sm px-3 py-1 bg-white text-indigo-800"
+                      >
+                        <Icon name="Clock" size={14} className="mr-1" />
+                        {stage.duration}
+                      </Badge>
+                    </div>
                   </div>
+                  <p className="text-sm opacity-90 mt-2">
+                    <Icon name="Target" size={16} className="mr-1 inline" />
+                    Цель этапа: {stage.pedagogicalGoal}
+                  </p>
                 </CardHeader>
                 <CardContent className="space-y-6 pt-6">
                   {stage.activities.map((activity, index) => (
@@ -429,6 +651,164 @@ const LessonPlan = () => {
             </TabsContent>
           ))}
         </Tabs>
+
+        {/* Planned Results */}
+        <Card className="mt-8 border-2 shadow-lg">
+          <CardHeader className="bg-gradient-to-r from-emerald-500 to-teal-600 text-white rounded-t-lg">
+            <CardTitle className="flex items-center">
+              <Icon name="Target" size={20} className="mr-2" />
+              Планируемые результаты урока
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="pt-6 space-y-6">
+            {/* Subject Results */}
+            <Card className="border-2 border-blue-200 bg-blue-50">
+              <CardHeader className="pb-3">
+                <CardTitle className="text-lg text-blue-800 flex items-center">
+                  <Icon name="BookOpen" size={18} className="mr-2" />
+                  Предметные результаты
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="pt-0">
+                <div className="grid md:grid-cols-2 gap-4">
+                  <div>
+                    <h4 className="font-semibold text-blue-900 mb-2">
+                      Знания:
+                    </h4>
+                    <ul className="text-sm space-y-1">
+                      {lessonData.plannedResults.subject.knowledge.map(
+                        (item, index) => (
+                          <li key={index} className="flex items-start">
+                            <Icon
+                              name="CheckCircle"
+                              size={14}
+                              className="mr-2 mt-0.5 text-green-600 flex-shrink-0"
+                            />
+                            <span>{item}</span>
+                          </li>
+                        ),
+                      )}
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-blue-900 mb-2">
+                      Умения:
+                    </h4>
+                    <ul className="text-sm space-y-1">
+                      {lessonData.plannedResults.subject.skills.map(
+                        (item, index) => (
+                          <li key={index} className="flex items-start">
+                            <Icon
+                              name="CheckCircle"
+                              size={14}
+                              className="mr-2 mt-0.5 text-green-600 flex-shrink-0"
+                            />
+                            <span>{item}</span>
+                          </li>
+                        ),
+                      )}
+                    </ul>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Metasubject Results */}
+            <Card className="border-2 border-purple-200 bg-purple-50">
+              <CardHeader className="pb-3">
+                <CardTitle className="text-lg text-purple-800 flex items-center">
+                  <Icon name="Brain" size={18} className="mr-2" />
+                  Метапредметные результаты (УУД)
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="pt-0">
+                <div className="grid md:grid-cols-3 gap-4">
+                  <div>
+                    <h4 className="font-semibold text-purple-900 mb-2">
+                      Регулятивные УУД:
+                    </h4>
+                    <ul className="text-sm space-y-1">
+                      {lessonData.plannedResults.metasubject.regulatory.map(
+                        (item, index) => (
+                          <li key={index} className="flex items-start">
+                            <Icon
+                              name="CheckCircle"
+                              size={14}
+                              className="mr-2 mt-0.5 text-green-600 flex-shrink-0"
+                            />
+                            <span>{item}</span>
+                          </li>
+                        ),
+                      )}
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-purple-900 mb-2">
+                      Познавательные УУД:
+                    </h4>
+                    <ul className="text-sm space-y-1">
+                      {lessonData.plannedResults.metasubject.cognitive.map(
+                        (item, index) => (
+                          <li key={index} className="flex items-start">
+                            <Icon
+                              name="CheckCircle"
+                              size={14}
+                              className="mr-2 mt-0.5 text-green-600 flex-shrink-0"
+                            />
+                            <span>{item}</span>
+                          </li>
+                        ),
+                      )}
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-purple-900 mb-2">
+                      Коммуникативные УУД:
+                    </h4>
+                    <ul className="text-sm space-y-1">
+                      {lessonData.plannedResults.metasubject.communicative.map(
+                        (item, index) => (
+                          <li key={index} className="flex items-start">
+                            <Icon
+                              name="CheckCircle"
+                              size={14}
+                              className="mr-2 mt-0.5 text-green-600 flex-shrink-0"
+                            />
+                            <span>{item}</span>
+                          </li>
+                        ),
+                      )}
+                    </ul>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Personal Results */}
+            <Card className="border-2 border-orange-200 bg-orange-50">
+              <CardHeader className="pb-3">
+                <CardTitle className="text-lg text-orange-800 flex items-center">
+                  <Icon name="Heart" size={18} className="mr-2" />
+                  Личностные результаты
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="pt-0">
+                <ul className="text-sm space-y-2">
+                  {lessonData.plannedResults.personal.map((item, index) => (
+                    <li key={index} className="flex items-start">
+                      <Icon
+                        name="CheckCircle"
+                        size={14}
+                        className="mr-2 mt-0.5 text-green-600 flex-shrink-0"
+                      />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </CardContent>
+            </Card>
+          </CardContent>
+        </Card>
 
         {/* Assessment Criteria */}
         <Card className="mt-8 border-2 shadow-lg">
