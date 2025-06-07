@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import BusinessCards from "./pages/BusinessCards";
 import LessonPlan from "./pages/LessonPlan";
+import TKUPresentation from "@/pages/TKUPresentation";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +21,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/business-cards" element={<BusinessCards />} />
           <Route path="/lesson-plan" element={<LessonPlan />} />
+          <Route path="/tku-presentation" element={<TKUPresentation />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
