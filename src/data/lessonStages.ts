@@ -46,16 +46,36 @@ export const fgosLessonStages = {
     pedagogicalGoal: "Введение и первичное усвоение новой лексики по теме",
     activities: [
       {
-        step: "Введение новой лексики",
+        step: "📖 Spotlight 8 SB p.42 Ex.1 - Vocabulary Introduction",
         teacher:
-          "Look at the screen. Here are new words about school life and uniform. Let's read them together and guess the meanings. Can you match the words with the pictures?",
+          "Open your Student's Books page 42. Look at exercise 1. Match the words in bold to their definitions. Let's read the words together: attend, boarding school, co-educational, etc.",
         students:
-          "Знакомятся с новыми словами, читают вслед за учителем, соотносят слова с картинками",
-        time: "6 мин",
+          "Открывают учебники, читают новые слова, соотносят слова с определениями",
+        time: "4 мин",
         materials:
-          "Презентация с новой лексикой, картинки школьной формы и предметов, Spotlight 8 p.42",
+          "Spotlight 8 Student's Book p.42, презентация с новой лексикой",
         gameElement:
-          "🎯 Word-Picture Match: +2 балла за каждое правильное соответствие",
+          "🎯 First Match: первая команда с правильными соответствиями = +5 баллов",
+      },
+      {
+        step: "🔊 Spotlight 8 SB p.42 Ex.2 - Listening & Pronunciation",
+        teacher:
+          "Now let's listen to the audio CD1 Track 28. Listen and repeat the words. Pay attention to the stress. Which syllable is stressed in 'co-educational'?",
+        students:
+          "Слушают аудиозапись, повторяют слова, отрабатывают произношение и ударение",
+        time: "3 мин",
+        materials: "Spotlight 8 Audio CD1 Track 28, аудиосистема",
+        gameElement: "🔊 Perfect Pronunciation: лучшее произношение = +3 балла",
+      },
+      {
+        step: "📝 Spotlight 8 WB p.26 Ex.1 - Word Formation",
+        teacher:
+          "Open your Workbooks page 26. Complete the sentences with the correct form of the words in capitals. For example: EDUCATE - What kind of EDUCATION do you prefer?",
+        students:
+          "Работают с рабочими тетрадями, образуют правильные формы слов",
+        time: "3 мин",
+        materials: "Spotlight 8 Workbook p.26",
+        gameElement: "📝 Word Master: все правильные формы = +8 баллов",
       },
       {
         step: "🎲 Vocabulary Dice Game",
@@ -63,21 +83,10 @@ export const fgosLessonStages = {
           "Roll the dice and get your vocabulary challenge! 1-2 = Draw it, 3-4 = Act it out, 5-6 = Explain without saying the word. Each team gets 3 rolls!",
         students:
           "Бросают кубик, выполняют задания: рисуют, показывают жестами или объясняют слова",
-        time: "4 мин",
-        materials: "Большой кубик, карточки со словами, доска для рисования",
-        gameElement:
-          "🎲 Triple Challenge: команда, угадавшая все 3 слова = +18 баллов",
-      },
-      {
-        step: "Семантизация лексики",
-        teacher:
-          "Now let's understand these words better. I'll give you definitions, and you guess the word. For example: 'A school where students live and study' - boarding school. Your turn!",
-        students:
-          "Угадывают слова по дефинициям, объясняют значения новых слов",
         time: "2 мин",
-        materials: "Карточки с дефинициями, словари, интерактивная доска",
+        materials: "Большой кубик, карточки со словами из Spotlight 8",
         gameElement:
-          "🧩 Definition Game: самый быстрый правильный ответ = +5 баллов",
+          "🎲 Triple Challenge: команда, угадавшая все 3 слова = +15 баллов",
       },
     ],
   },
