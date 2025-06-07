@@ -7,6 +7,7 @@ export const fgosLessonStages = {
     activities: [
       {
         step: "Организационный момент и приветствие",
+        workType: "👥 Фронтальная работа",
         teacher:
           "Good morning, class! I'm glad to see you today. Let's start our lesson about something very important in our lives - school! Look at these pictures on the board. What can you see?",
         students:
@@ -18,21 +19,23 @@ export const fgosLessonStages = {
       },
       {
         step: "Мотивация и целеполагание",
+        workType: "👤 Индивидуальная работа",
         teacher:
-          "Today we'll talk about school life, school uniform, school subjects and your attitude to them. What do you think we'll learn today? What are your goals for this lesson?",
+          "Today we'll talk about school life, school uniform, school subjects and your attitude to them. Write down one personal goal for this lesson on your card. What do you want to learn today?",
         students:
-          "Формулируют предположения о теме урока, ставят личные цели обучения",
+          "Формулируют и записывают личные цели обучения на карточках, затем делятся с классом",
         time: "4 мин",
         materials:
-          "Слайды с темой урока, цели урока, мотивационный видеоролик (1 мин)",
+          "Карточки для целей, слайды с темой урока, мотивационный видеоролик (1 мин)",
         gameElement: "🎯 Каждая сформулированная цель = +3 балла команде",
       },
       {
         step: "Фонетическая разминка",
+        workType: "👫 Парная работа",
         teacher:
-          "Let's practice some sounds we'll need today. Listen and repeat: [ʃ] - school, scholarship, [dʒ] - jumper, subject, [θ] - think, uniform. Now let's play 'Sound Chain' game!",
+          "Work in pairs! Listen and repeat: [ʃ] - school, scholarship, [dʒ] - jumper, subject, [θ] - think, uniform. Practice with your partner, then we'll play 'Sound Chain' game!",
         students:
-          "Повторяют звуки, участвуют в фонетической игре, тренируют произношение",
+          "Работают в парах, отрабатывают произношение звуков, корректируют друг друга, участвуют в фонетической игре",
         time: "3 мин",
         materials: "Фонетические карточки, аудиозаписи звуков",
         gameElement:
@@ -48,10 +51,11 @@ export const fgosLessonStages = {
     activities: [
       {
         step: "⚡ Speed Round: Школьные предметы",
+        workType: "🏆 Командная работа",
         teacher:
-          "Quick! Name all school subjects you remember in 30 seconds. Then tell me: What's your favourite subject? Why? What do you need for PE lessons?",
+          "Teams compete! Name all school subjects you remember in 30 seconds. Each team member adds one subject. Then discuss: What's your team's favourite subject? Why?",
         students:
-          "Быстро называют школьные предметы, рассказывают о любимом предмете и необходимых вещах",
+          "Работают в командах, быстро называют школьные предметы, обсуждают любимые предметы команды",
         time: "3 мин",
         materials: "Таймер, мяч для передачи слова, доска для записи предметов",
         gameElement:
@@ -59,10 +63,11 @@ export const fgosLessonStages = {
       },
       {
         step: "🎒 Mystery Bag: Школьные принадлежности",
+        workType: "👤 Индивидуальная работа",
         teacher:
-          "Feel what's in the mystery bag without looking! Describe the object using 'It's made of...', 'It's used for...', 'It feels like...'. Can you guess what it is?",
+          "One by one, feel what's in the mystery bag without looking! Describe the object using 'It's made of...', 'It's used for...', 'It feels like...'. Can you guess what it is?",
         students:
-          "Ощупывают предметы в мешке, описывают их свойства, угадывают школьные принадлежности",
+          "По очереди ощупывают предметы в мешке, индивидуально описывают их свойства, угадывают школьные принадлежности",
         time: "3 мин",
         materials:
           "Непрозрачный мешок, школьные принадлежности (ручка, линейка, калькулятор, клей)",
@@ -71,10 +76,11 @@ export const fgosLessonStages = {
       },
       {
         step: "📅 Расписание-пазл",
+        workType: "👥 Фронтальная работа",
         teacher:
-          "Your timetable is mixed up! Put the subjects in the correct order for Monday. Remember: which subjects do you usually have? When do you have breaks?",
+          "Together we'll fix this mixed up timetable! Everyone suggest where each subject should go for Monday. Let's discuss: which subjects do you usually have? When do you have breaks?",
         students:
-          "Восстанавливают правильное расписание, обсуждают последовательность уроков и перемены",
+          "Вместе восстанавливают правильное расписание, все участвуют в обсуждении последовательности уроков",
         time: "2 мин",
         materials: "Карточки с предметами, шаблон расписания, магниты",
         gameElement: "📋 Schedule Master: правильное расписание = +8 баллов",
@@ -88,58 +94,51 @@ export const fgosLessonStages = {
     activities: [
       {
         step: "📖 Spotlight 8 SB p.42 Ex.1 - Vocabulary Introduction",
+        workType: "👫 Парная работа",
         teacher:
-          "Open your Student's Books page 42. Look at exercise 1. Match the words in bold to their definitions. Let's read the words together: attend, boarding school, co-educational, etc.",
+          "Open your Student's Books page 42. Work with your partner to match the words in bold to their definitions. Read the words together: attend, boarding school, co-educational, etc.",
         students:
-          "Открывают учебники, читают новые слова, соотносят слова с определениями",
+          "Работают в парах с учебниками, читают новые слова, вместе соотносят слова с определениями",
         time: "4 мин",
         materials:
           "Spotlight 8 Student's Book p.42, презентация с новой лексикой",
         gameElement:
-          "🎯 First Match: первая команда с правильными соответствиями = +5 баллов",
+          "🎯 First Match: первая пара с правильными соответствиями = +5 баллов",
       },
       {
         step: "🔊 Spotlight 8 SB p.42 Ex.2 - Listening & Pronunciation",
+        workType: "👥 Фронтальная работа",
         teacher:
-          "Now let's listen to the audio CD1 Track 28. Listen and repeat the words. Pay attention to the stress. Which syllable is stressed in 'co-educational'?",
+          "Now let's all listen to the audio CD1 Track 28 together. Listen and repeat the words as a class. Pay attention to the stress. Which syllable is stressed in 'co-educational'?",
         students:
-          "Слушают аудиозапись, повторяют слова, отрабатывают произношение и ударение",
+          "Всем классом слушают аудиозапись, хором повторяют слова, отрабатывают произношение и ударение",
         time: "3 мин",
         materials: "Spotlight 8 Audio CD1 Track 28, аудиосистема",
-        gameElement: "🔊 Perfect Pronunciation: лучшее произношение = +3 балла",
+        gameElement:
+          "🔊 Perfect Pronunciation: лучшее хоровое произношение = +3 балла",
       },
       {
         step: "📝 Spotlight 8 WB p.26 Ex.1 - Word Formation",
+        workType: "👤 Индивидуальная работа",
         teacher:
-          "Open your Workbooks page 26. Complete the sentences with the correct form of the words in capitals. For example: EDUCATE - What kind of EDUCATION do you prefer?",
+          "Open your Workbooks page 26. Complete the sentences individually with the correct form of the words in capitals. For example: EDUCATE - What kind of EDUCATION do you prefer?",
         students:
-          "Работают с рабочими тетрадями, образуют правильные формы слов",
+          "Индивидуально работают с рабочими тетрадями, самостоятельно образуют правильные формы слов",
         time: "3 мин",
         materials: "Spotlight 8 Workbook p.26",
         gameElement: "📝 Word Master: все правильные формы = +8 баллов",
       },
       {
         step: "🎲 Vocabulary Dice Game",
+        workType: "🏆 Командная работа",
         teacher:
-          "Roll the dice and get your vocabulary challenge! 1-2 = Draw it, 3-4 = Act it out, 5-6 = Explain without saying the word. Each team gets 3 rolls!",
+          "Teams take turns! Roll the dice and get your vocabulary challenge! 1-2 = Draw it, 3-4 = Act it out, 5-6 = Explain without saying the word. Each team gets 3 rolls!",
         students:
-          "Бросают кубик, выполняют задания: рисуют, показывают жестами или объясняют слова",
+          "Команды по очереди бросают кубик, выполняют задания: рисуют, показывают жестами или объясняют слова",
         time: "2 мин",
         materials: "Большой кубик, карточки со словами из Spotlight 8",
         gameElement:
           "🎲 Triple Challenge: команда, угадавшая все 3 слова = +15 баллов",
-      },
-      {
-        step: "🎭 Role-Play: School Uniform Debate",
-        teacher:
-          "Now let's have a mini debate! Team A will argue FOR school uniforms, Team B will argue AGAINST. Use the new vocabulary: boarding school, co-educational, attend, etc. You have 2 minutes to prepare your arguments.",
-        students:
-          "Делятся на команды, готовят аргументы за и против школьной формы, используют новую лексику в дебатах",
-        time: "6 мин",
-        materials:
-          "Карточки с аргументами, таймер, доска для записи ключевых фраз",
-        gameElement:
-          "🏆 Best Argument Award: самый убедительный аргумент = +7 баллов команде",
       },
     ],
   },
@@ -150,22 +149,24 @@ export const fgosLessonStages = {
     activities: [
       {
         step: "Модный показ школьной формы",
+        workType: "👥 Фронтальная работа",
         teacher:
-          "Stand up! We're having a School Fashion Show! When I say 'SHIRT' - touch your shirt and pose, 'TROUSERS' - march like a model, 'TIE' - straighten your tie and bow, 'SHOES' - do toe taps! Ready? Let's runway walk!",
+          "Everyone stand up! We're all having a School Fashion Show together! When I say 'SHIRT' - everyone touch your shirt and pose, 'TROUSERS' - march like models, 'TIE' - straighten ties and bow, 'SHOES' - do toe taps! Ready? Let's runway walk together!",
         students:
-          "Встают, выполняют движения под названия предметов одежды, ходят как модели по подиуму",
+          "Все вместе встают, выполняют движения под названия предметов одежды, ходят как модели по подиуму",
         time: "2 мин",
         materials:
           "Энергичная музыка для показа мод, список предметов школьной формы",
         gameElement:
-          "👑 Runway Star: самая стильная походка модели = +5 баллов + корона 'Fashion King/Queen'",
+          "👑 Runway Star: самая стильная походка класса = +5 баллов всем + корона 'Fashion Class'",
       },
       {
         step: "Школьные предметы в движении",
+        workType: "👤 Индивидуальная работа",
         teacher:
-          "Now let's act out school subjects! MATHS - count on fingers jumping, PE - run in place, ART - paint in the air, MUSIC - conduct an orchestra, SCIENCE - mix potions! Follow my commands!",
+          "Now each person acts out one school subject! MATHS - count on fingers jumping, PE - run in place, ART - paint in the air, MUSIC - conduct an orchestra, SCIENCE - mix potions! Show us your subject!",
         students:
-          "Изображают школьные предметы через активные движения, следуют командам учителя",
+          "Каждый индивидуально изображает свой школьный предмет через активные движения, показывает классу",
         time: "1 мин",
         materials: "Карточки с названиями предметов, веселая фоновая музыка",
         gameElement:
@@ -181,10 +182,11 @@ export const fgosLessonStages = {
     activities: [
       {
         step: "Контроль понимания новой лексики",
+        workType: "🏆 Командная работа",
         teacher:
-          "Time to check your understanding! I'll show you pictures, and you name the items. Then we'll play 'True or False' about school uniform and subjects.",
+          "Teams compete in understanding check! I'll show pictures, teams discuss and name items together. Then play 'True or False' - teams vote and explain their choice!",
         students:
-          "Называют предметы по картинкам, участвуют в игре 'Верно-неверно'",
+          "Команды обсуждают и называют предметы по картинкам, голосуют в игре 'Верно-неверно'",
         time: "5 мин",
         materials: "Картинки школьной формы, карточки True/False, презентация",
         gameElement:
@@ -192,10 +194,11 @@ export const fgosLessonStages = {
       },
       {
         step: "Работа с учебником",
+        workType: "👫 Парная работа",
         teacher:
-          "Open your books at page 42. Let's look at exercise 1. Read the words and match them with the correct pictures. Work in pairs and check each other.",
+          "Open your books at page 42. Work in pairs - look at exercise 1. Read the words and match them with the correct pictures. Check each other's work and discuss any differences.",
         students:
-          "Работают с учебником в парах, выполняют упражнения на соотнесение",
+          "Работают с учебником в парах, выполняют упражнения на соотнесение, проверяют друг друга",
         time: "3 мин",
         materials: "Spotlight 8 Student's Book p.42, рабочие листы",
         gameElement:
@@ -210,10 +213,11 @@ export const fgosLessonStages = {
     activities: [
       {
         step: "🎪 Цирк Школьных Предметов",
+        workType: "👤 Индивидуальная работа",
         teacher:
-          "Welcome to the School Subject Circus! Each subject is a circus act. Math = Juggling numbers, PE = Acrobatics, Art = Magic tricks. Present your act in 1 minute!",
+          "Welcome to the School Subject Circus! Each person chooses a subject and creates a solo circus act. Math = Juggling numbers, PE = Acrobatics, Art = Magic tricks. Present your act in 1 minute!",
         students:
-          "Представляют школьные предметы как цирковые номера, используют движения и реквизит",
+          "Каждый индивидуально представляет школьный предмет как цирковой номер, используя движения и реквизит",
         time: "3 мин",
         materials: "Цирковые атрибуты (шляпы, мячи, ленты), музыка, таймер",
         gameElement:
@@ -221,10 +225,11 @@ export const fgosLessonStages = {
       },
       {
         step: "📱 TikTok Challenge: Школьная Форма",
+        workType: "🏆 Командная работа",
         teacher:
-          "Create a 30-second TikTok video about school uniform pros and cons. Use trending sounds, dance moves, and hashtags. Teams compete for most creative content!",
+          "Teams create a 30-second TikTok video about school uniform pros and cons together. Use trending sounds, dance moves, and hashtags. Teams compete for most creative content!",
         students:
-          "Создают короткие видео о школьной форме, используют популярные тренды и музыку",
+          "Команды совместно создают короткие видео о школьной форме, используют популярные тренды и музыку",
         time: "4 мин",
         materials:
           "Планшеты/телефоны, реквизит для съемки, список трендовых звуков",
@@ -233,15 +238,16 @@ export const fgosLessonStages = {
       },
       {
         step: "🎭 Модный показ школьной формы",
+        workType: "👥 Фронтальная работа",
         teacher:
-          "Welcome to our Fashion Show! Each team presents different school uniforms from around the world. Describe what models are wearing, explain pros and cons, and vote for the best uniform!",
+          "Welcome to our class Fashion Show! Everyone participates as we present different school uniforms from around the world together. Let's describe what we see, explain pros and cons, and vote for the best uniform as a class!",
         students:
-          "Проводят мини-показ мод, описывают форму разных стран, аргументируют выбор лучшей формы",
+          "Весь класс участвует в показе мод, все вместе описывают форму разных стран, голосуют за лучшую форму",
         time: "3 мин",
         materials:
           "Фото школьной формы разных стран, подиум (класс), карточки для голосования",
         gameElement:
-          "👗 Fashion Show Champion: лучшая презентация = +15 баллов + титул 'Best Designer'",
+          "👗 Fashion Show Champion: лучшая коллективная презентация = +15 баллов всем + титул 'Best Designer Class'",
       },
     ],
   },
@@ -252,10 +258,11 @@ export const fgosLessonStages = {
     activities: [
       {
         step: "🎮 Kahoot Quiz Battle",
+        workType: "👤 Индивидуальная работа",
         teacher:
-          "Get your phones ready! Join our Kahoot quiz about school vocabulary. Questions include images, audio, and tricky situations. Who will be the ultimate School Life Expert?",
+          "Get your phones ready! Each person joins our Kahoot quiz individually about school vocabulary. Questions include images, audio, and tricky situations. Who will be the ultimate School Life Expert?",
         students:
-          "Отвечают на интерактивные вопросы через телефоны, соревнуются в реальном времени",
+          "Индивидуально отвечают на интерактивные вопросы через телефоны, соревнуются в реальном времени",
         time: "4 мин",
         materials: "Kahoot-презентация, QR-код для входа, смартфоны учащихся",
         gameElement:
@@ -263,14 +270,15 @@ export const fgosLessonStages = {
       },
       {
         step: "🕵️ Детектив ошибок",
+        workType: "👫 Парная работа",
         teacher:
-          "Become grammar detectives! Find mistakes in these school stories. Each team gets different story with 5 hidden errors. First team to find all mistakes wins!",
+          "Work in pairs to become grammar detectives! Each pair gets a school story with 5 hidden errors. Work together to find mistakes and explain correct versions. First pair to find all mistakes wins!",
         students:
-          "Работают в командах, ищут ошибки в текстах, объясняют правильные варианты",
+          "Работают в парах, ищут ошибки в текстах, обсуждают и объясняют правильные варианты партнеру",
         time: "4 мин",
         materials: "Тексты с ошибками, лупы (игрушечные), детективные значки",
         gameElement:
-          "🔍 Super Detective: команда, нашедшая все ошибки первой = +25 баллов",
+          "🔍 Super Detective: пара, нашедшая все ошибки первой = +25 баллов",
       },
     ],
   },
@@ -282,22 +290,24 @@ export const fgosLessonStages = {
     activities: [
       {
         step: "🏫 School Tour для новичков",
+        workType: "🏆 Командная работа",
         teacher:
-          "Imagine new international students arrived! Create a school tour presentation. Show them around, explain dress code, introduce subjects, and share school rules. Make them feel welcome!",
+          "Teams create a school tour presentation for new international students! Each team takes different areas: classrooms, dress code, subjects, school rules. Work together to make them feel welcome!",
         students:
-          "Создают экскурсию по школе для новых учеников, представляют школьную жизнь на английском",
+          "Команды создают экскурсию по разным аспектам школы для новых учеников, представляют школьную жизнь на английском",
         time: "5 мин",
         materials:
           "Карта школы, фото классов, микрофон (игрушечный), бейджи 'Tour Guide'",
         gameElement:
-          "🎙️ Best Guide: самая информативная и дружелюбная экскурсия = +20 баллов",
+          "🎙️ Best Guide Team: самая информативная и дружелюбная командная экскурсия = +20 баллов",
       },
       {
         step: "📧 Email другу о школе",
+        workType: "👤 Индивидуальная работа",
         teacher:
-          "Write an email to your foreign friend about your school life. Include: your daily schedule, uniform policy, favourite subjects, and invite them to visit. Use new vocabulary!",
+          "Each person writes an individual email to your foreign friend about your school life. Include: your daily schedule, uniform policy, favourite subjects, and invite them to visit. Use new vocabulary!",
         students:
-          "Пишут электронное письмо зарубежному другу, используя новую лексику и структуры",
+          "Каждый индивидуально пишет электронное письмо зарубежному другу, используя новую лексику и структуры",
         time: "4 мин",
         materials: "Планшеты/ноутбуки, шаблон email, словарь новых слов",
         gameElement:
@@ -305,15 +315,16 @@ export const fgosLessonStages = {
       },
       {
         step: "🎪 Школьная ярмарка профессий",
+        workType: "👥 Фронтальная работа",
         teacher:
-          "Set up career fair booths! Each team represents a school subject and shows future careers connected to it. Convince visitors why your subject is the most important!",
+          "Let's all set up our class career fair together! Everyone contributes ideas about how school subjects connect to future careers. We'll discuss as a class why education is important for different professions!",
         students:
-          "Организуют стенды школьных предметов, рассказывают о связанных профессиях и их важности",
+          "Весь класс обсуждает связь школьных предметов с профессиями, все участвуют в общей дискуссии о важности образования",
         time: "3 мин",
         materials:
           "Цветные плакаты, маркеры, стикеры для голосования, карточки профессий",
         gameElement:
-          "🏆 Career Champion: самый убедительный стенд = +25 баллов + диплом 'Future Career Advisor'",
+          "🏆 Career Champions: самые интересные идеи класса = +25 баллов всем + диплом 'Future Career Advisors'",
       },
     ],
   },
@@ -324,39 +335,42 @@ export const fgosLessonStages = {
     activities: [
       {
         step: "🎮 Escape Room: Vocabulary Exit",
+        workType: "👫 Парная работа",
         teacher:
-          "To escape the classroom, solve 3 vocabulary puzzles! Team 1: Crossword, Team 2: Word search, Team 3: Anagram challenge. Complete all to unlock the exit!",
+          "Work in pairs to escape the classroom! Solve 3 vocabulary puzzles together: Pair 1-2: Crossword, Pair 3-4: Word search, Pair 5-6: Anagram challenge. Complete all to unlock the exit!",
         students:
-          "Решают головоломки со словами, работают в командах, соревнуются на время",
+          "Работают в парах, решают головоломки со словами, помогают партнеру, соревнуются на время",
         time: "2 мин",
         materials:
           "Кроссворды, анаграммы, поиск слов, замок-головоломка для 'выхода'",
         gameElement:
-          "🔓 Escape Masters: первая команда, решившая все головоломки = +30 баллов",
+          "🔓 Escape Masters: первая пара, решившая все головоломки = +30 баллов",
       },
       {
         step: "🌟 Звездная рефлексия",
+        workType: "👤 Индивидуальная работа",
         teacher:
-          "Rate today's lesson like a movie! Give stars ⭐ for different parts: new words, activities, your mood. Then record a 30-second TikTok-style review of our lesson!",
+          "Each person rates today's lesson like a movie! Give stars ⭐ for different parts: new words, activities, your mood. Then each person records a 30-second personal review of our lesson!",
         students:
-          "Оценивают урок по-звездному, записывают короткие видео-отзывы, делятся впечатлениями",
+          "Каждый индивидуально оценивает урок по-звездному, записывает короткий личный видео-отзыв, делится впечатлениями",
         time: "3 мин",
         materials:
-          "Звездочки-стикеры, планшеты/телефоны для записи, рамка для 'TikTok'",
+          "Звездочки-стикеры, планшеты/телефоны для записи, рамка для 'отзыва'",
         gameElement:
-          "🎬 Oscar Winner: лучший видео-отзыв = +10 баллов + размещение в классном блоге",
+          "🎬 Oscar Winner: лучший индивидуальный видео-отзыв = +10 баллов + размещение в классном блоге",
       },
       {
         step: "🎯 Homework Quest",
+        workType: "👥 Фронтальная работа",
         teacher:
-          "Your mission, should you choose to accept it: Create a 'School Uniform Design Challenge' post for Instagram. Include: your ideal uniform sketch, 3 hashtags, and explain why it's perfect!",
+          "Our class mission for everyone: Create a 'School Uniform Design Challenge' post for Instagram. Let's discuss together what to include: uniform sketch ideas, 3 hashtags we'll all use, and why perfect uniforms matter!",
         students:
-          "Получают творческое задание в стиле квеста, планируют создание креативного контента",
+          "Весь класс обсуждает творческое задание, планируют общие элементы для создания контента",
         time: "2 мин",
         materials:
           "Карточки-миссии, примеры Instagram-постов, QR-код с инструкцией",
         gameElement:
-          "📱 Instagram Star: лучший пост на следующем уроке = +15 баллов + публикация в школьном аккаунте",
+          "📱 Instagram Stars: лучшие посты на следующем уроке = +15 баллов + публикация в школьном аккаунте",
       },
     ],
   },
