@@ -129,6 +129,18 @@ export const fgosLessonStages = {
         gameElement:
           "🎲 Triple Challenge: команда, угадавшая все 3 слова = +15 баллов",
       },
+      {
+        step: "🎭 Role-Play: School Uniform Debate",
+        teacher:
+          "Now let's have a mini debate! Team A will argue FOR school uniforms, Team B will argue AGAINST. Use the new vocabulary: boarding school, co-educational, attend, etc. You have 2 minutes to prepare your arguments.",
+        students:
+          "Делятся на команды, готовят аргументы за и против школьной формы, используют новую лексику в дебатах",
+        time: "6 мин",
+        materials:
+          "Карточки с аргументами, таймер, доска для записи ключевых фраз",
+        gameElement:
+          "🏆 Best Argument Award: самый убедительный аргумент = +7 баллов команде",
+      },
     ],
   },
   "physical-break": {
