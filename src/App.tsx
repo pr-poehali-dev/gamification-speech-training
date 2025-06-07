@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFound";
 import BusinessCards from "./pages/BusinessCards";
 import LessonPlan from "./pages/LessonPlan";
 import TKUPresentation from "@/pages/TKUPresentation";
+import LessonAnalysisPage from "@/pages/LessonAnalysisPage";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/lesson-plan" element={<LessonPlan />} />
           <Route path="/tku-presentation" element={<TKUPresentation />} />
           <Route path="/self-analysis" element={<SelfAnalysisPage />} />
+          <Route path="/lesson-analysis" element={<LessonAnalysisPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
