@@ -282,6 +282,65 @@ export const fgosLessonStages = {
       },
     ],
   },
+  quest: {
+    title: "🚀 Космическая школа - Образовательный квест",
+    duration: "15 минут",
+    pedagogicalGoal:
+      "Применение новых знаний через игровой квест с элементами поиска и решения задач",
+    activities: [
+      {
+        step: "🌌 Миссия: Спасение Космической Академии",
+        workType: "🏆 Командная работа",
+        teacher:
+          "Teams! The Galactic School Academy is in danger! Aliens stole all school subjects and uniforms. Your mission: find 5 hidden cosmic clues around the classroom, solve vocabulary puzzles, and restore the academy! Each team gets a mission tablet.",
+        students:
+          "Команды получают планшеты с миссией, изучают карту класса, планируют маршрут поиска подсказок",
+        time: "2 мин",
+        materials:
+          "Планшеты с картой, космические значки команд, QR-коды с подсказками",
+        gameElement:
+          "🎯 Mission Briefing: готовность команды к старту = +5 баллов",
+      },
+      {
+        step: "🔍 Поиск космических артефактов",
+        workType: "👫 Парная работа",
+        teacher:
+          "Work in pairs within your teams! Each pair searches for different cosmic artifacts: School Subject Crystals, Uniform Fragments, Knowledge Orbs. Scan QR codes to unlock vocabulary challenges at each station!",
+        students:
+          "Пары ищут артефакты по классу, сканируют QR-коды, решают словарные головоломки на каждой станции",
+        time: "6 мин",
+        materials:
+          "QR-коды, космические артефакты (коробки), головоломки, сканеры/телефоны",
+        gameElement:
+          "💎 Artifact Hunter: каждый найденный артефакт = +8 баллов паре",
+      },
+      {
+        step: "🧩 Расшифровка галактического кода",
+        workType: "👤 Индивидуальная работа",
+        teacher:
+          "Each explorer now works alone! Use your found clues to crack the Galactic Code. Match school vocabulary to alien symbols, solve anagrams of school subjects, and decode the final message to save the academy!",
+        students:
+          "Каждый индивидуально расшифровывает код, используя найденные подсказки, решает анаграммы школьных предметов",
+        time: "4 мин",
+        materials:
+          "Карточки с alien символами, анаграммы, дешифровальные листы",
+        gameElement: "🔓 Code Breaker: полная расшифровка = +15 баллов",
+      },
+      {
+        step: "🌟 Финальная миссия: Восстановление Академии",
+        workType: "👥 Фронтальная работа",
+        teacher:
+          "All teams unite! Present your discoveries together to restore the Cosmic Academy. Each team shares one clue, we combine all solutions, and celebrate our victory as the whole class of Space Heroes!",
+        students:
+          "Все команды объединяются, представляют найденные решения, восстанавливают Космическую Академию вместе",
+        time: "3 мин",
+        materials:
+          "Большая карта Космической Академии, финальные пазлы, космическая музыка",
+        gameElement:
+          "🏆 Academy Saviors: успешное восстановление = +25 баллов всем + звание 'Cosmic Heroes'",
+      },
+    ],
+  },
   application: {
     title: "🎯 2.4 Применение знаний",
     duration: "12 минут",
