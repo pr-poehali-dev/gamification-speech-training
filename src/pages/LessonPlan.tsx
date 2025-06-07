@@ -15,7 +15,7 @@ const LessonPlan = () => {
     duration: "45 минут",
     objectives: {
       educational:
-        "Освоение лексики по теме 'Education' (УМК Spotlight 8, Module 3a), развитие навыков использования Present Simple vs Present Continuous",
+        "Освоение лексики по теме «Школа, школьная жизнь, школьная форма, изучаемые предметы и отношение к ним» (УМК Spotlight 8 module 3), развитие навыков использования Past Perfect - Past Perfect Continuous - Past Simple - Past Continuous",
       developing:
         "Развитие коммуникативных навыков через игровые задания, критического мышления через квест-активности",
       upbringing:
@@ -81,16 +81,16 @@ const LessonPlan = () => {
             "💎 Редкие слова стоят больше баллов. Бонус +20 за полную коллекцию. Achievement: 'Vocabulary Hunter'",
         },
         {
-          step: "Station 2: Grammar Detective Work (Первичная проверка понимания)",
+          step: "Station 2: Past Time Detective Work (Первичная проверка понимания)",
           teacher:
-            "Solve the case! Read these Spotlight texts and find examples of Present Simple vs Present Continuous. Each correct find = clue points! Explain the rule to earn bonus points!",
+            "Solve the grammar mystery! Read school stories and find examples of Past Perfect, Past Perfect Continuous, Past Simple, Past Continuous. Timeline detectives - arrange events in correct order! Each correct timeline = bonus points!",
           students:
-            "Анализируют тексты из учебника, находят грамматические структуры, объясняют правила использования времен",
+            "Анализируют тексты о школьной жизни, находят различные прошедшие времена, составляют временные линии событий, объясняют последовательность действий",
           time: "7 мин",
           materials:
-            "Spotlight 8 texts (p.42-43), detective magnifying glasses, clue sheets, grammar reference cards",
+            "School life stories with mixed past tenses, timeline worksheets, detective magnifying glasses, grammar reference cards",
           gameElement:
-            "🔍 За каждый найденный пример +5 баллов, за объяснение правила +10. Special badge: 'Grammar Detective'",
+            "🔍 За каждое правильно найденное время +5 баллов, за объяснение временной последовательности +10. Special badge: 'Time Detective'",
         },
         {
           step: "Station 3: School Subjects Battle Royale (Первичное закрепление)",
@@ -117,16 +117,16 @@ const LessonPlan = () => {
             "🎨 Самый креативный проект получает Golden Schedule Award (+25 баллов). Peer voting для People's Choice Award",
         },
         {
-          step: "Station 5: Quick-Fire Knowledge Quiz & Error Correction",
+          step: "Station 5: School Memories Quiz & Timeline Challenge",
           teacher:
-            "Final challenge! Lightning round about education systems and school uniforms. Answer fast to earn maximum points! Let's also fix any mistakes from previous stations together!",
+            "Share your school memories! Tell about what had happened before you started this school, what you were doing last year, and what you had been learning before today's lesson. Create memory timelines using all past tenses!",
           students:
-            "Отвечают на быстрые вопросы о школьных системах разных стран, обсуждают ошибки, исправляют их коллективно",
+            "Рассказывают о школьных воспоминаниях, используя все изученные прошедшие времена, создают временные линии своего образования",
           time: "3 мин",
           materials:
-            "Quiz buzzer system, questions from Spotlight 8 Cultural Corner, error correction worksheets, mistake board",
+            "Memory timeline templates, past tense prompt cards, personal story worksheets",
           gameElement:
-            "⚡ Первый правильный ответ = 10 баллов, второй = 5 баллов. Bonus points за помощь в исправлении ошибок",
+            "⚡ Самая интересная история с правильными временами = 15 баллов. Bonus за креативную временную линию",
         },
       ],
     },
@@ -147,16 +147,16 @@ const LessonPlan = () => {
             "🥇 Команды получают титулы: Education Masters, Vocabulary Wizards, Grammar Gurus, Creative Designers",
         },
         {
-          step: "Quest Completion & Homework Mission",
+          step: "Quest Completion & Past Tense Homework Mission",
           teacher:
-            "Your homework quest: Create a mini-documentary about your perfect school day using today's vocabulary. Film it, make a comic strip, or write a blog post! Use at least 10 new words!",
+            "Your homework quest: Write a school diary entry about an important day from your past! Use Past Perfect (what had happened before), Past Perfect Continuous (what had been going on), Past Simple (main events), and Past Continuous (background actions). At least 10 new school vocabulary words!",
           students:
-            "Принимают творческое домашнее задание, выбирают формат выполнения, планируют использование новой лексики",
+            "Принимают творческое домашнее задание, планируют написание дневника с использованием всех прошедших времен и новой лексики",
           time: "2 мин",
           materials:
-            "Homework quest cards, vocabulary checklists, creative format options, QR codes for online resources",
+            "Diary templates, past tense checklist, vocabulary bank, timeline helpers, QR codes for grammar resources",
           gameElement:
-            "📱 Лучшие работы станут частью School Life Exhibition на следующем уроке. Special prize для самого креативного проекта",
+            "📱 Лучшие дневники станут частью School Memories Exhibition. Special prize за самое правильное использование всех 4 времен",
         },
         {
           step: "Level Up Assessment & Final Scores",
@@ -201,8 +201,9 @@ const LessonPlan = () => {
     },
     {
       category: "Грамматические навыки",
-      points: "0-20 баллов",
-      criteria: "Правильное использование Present Simple vs Present Continuous",
+      points: "0-25 баллов",
+      criteria:
+        "Правильное использование Past Perfect, Past Perfect Continuous, Past Simple, Past Continuous",
     },
     {
       category: "Коммуникативные навыки",
@@ -570,10 +571,10 @@ const LessonPlan = () => {
                 📚 Материалы УМК Spotlight 8:
               </h4>
               <p className="text-sm text-purple-800">
-                Module 3a "That's the Life for Me" (p.42-43), Workbook
+                Module 3 "School Days & School Ways" (p.42-43), Workbook
                 exercises, Audio materials, Cultural Corner (Education systems),
-                Grammar Bank (Present Simple vs Present Continuous), Progress
-                Check 3
+                Grammar Bank (Past Perfect, Past Perfect Continuous, Past
+                Simple, Past Continuous), Progress Check 3
               </p>
             </div>
 
