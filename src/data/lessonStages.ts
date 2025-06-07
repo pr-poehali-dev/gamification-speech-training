@@ -1,225 +1,189 @@
 export const fgosLessonStages = {
   organizational: {
-    title: "🎯 1. Организационно-мотивационный этап",
-    duration: "5 минут",
-    pedagogicalGoal: "Мотивация к учебной деятельности, целеполагание",
+    title: "🎯 1. Организационный этап",
+    duration: "10 минут",
+    pedagogicalGoal:
+      "Постановка цели и задач урока, мотивация учебной деятельности",
     activities: [
       {
-        step: "School Life Warm-up Challenge",
+        step: "Организационный момент и приветствие",
         teacher:
-          "Welcome to our Education Quest! Let's start with a quick challenge. Look at these emojis and guess the school subjects: 🧮 📚 🧪 🎨",
+          "Good morning, class! I'm glad to see you today. Let's start our lesson about something very important in our lives - school! Look at these pictures on the board. What can you see?",
         students:
-          "Разгадывают emoji-загадки, настраиваются на урок, формируют команды",
-        time: "2 мин",
-        materials: "Interactive board, emoji cards, team badges",
-        gameElement: "⭐ Команды получают +5 баллов за каждый правильный ответ",
-      },
-      {
-        step: "Goal Setting & Mission Briefing",
-        teacher:
-          "Today we're detectives solving the mystery of the Perfect School Day! What do you think we'll learn about school life and grammar? What are your goals for today?",
-        students: "Формулируют цели урока, принимают учебные задачи",
+          "Приветствуют учителя, рассматривают изображения школьной жизни, отвечают на вопросы",
         time: "3 мин",
-        materials: "Mission cards, goal-setting worksheets, quest map",
+        materials: "Картинки школьной жизни, школьной формы, учебников",
         gameElement:
-          "🎯 Каждая команда получает детективный бейдж и стартовые 10 баллов",
+          "📸 Угадай школьный предмет по картинке - за правильный ответ команда получает +2 балла",
       },
-    ],
-  },
-  actualization: {
-    title: "📋 2. Актуализация знаний",
-    duration: "6 минут",
-    pedagogicalGoal: "Воспроизведение и коррекция опорных знаний",
-    activities: [
       {
-        step: "School Memory Timeline Challenge",
+        step: "Мотивация и целеполагание",
         teacher:
-          "Let's remember what we know about school and past tenses! Create quick timelines of your school memories. What happened yesterday? What had you done before coming to school?",
+          "Today we'll talk about school life, school uniform, school subjects and your attitude to them. What do you think we'll learn today? What are your goals for this lesson?",
         students:
-          "Актуализируют знания о прошедших временах, школьной лексике, создают мини-таймлайны",
+          "Формулируют предположения о теме урока, ставят личные цели обучения",
         time: "4 мин",
         materials:
-          "Timeline templates, past tense prompt cards, school vocabulary flashcards",
-        gameElement:
-          "🔍 +3 балла за каждое правильно использованное время. Badge: 'Memory Master'",
+          "Слайды с темой урока, цели урока, мотивационный видеоролик (1 мин)",
+        gameElement: "🎯 Каждая сформулированная цель = +3 балла команде",
       },
       {
-        step: "Grammar Detective Warm-up",
+        step: "Фонетическая разминка",
         teacher:
-          "Quick grammar check! Look at these sentences about school. Which past tense is used and why?",
+          "Let's practice some sounds we'll need today. Listen and repeat: [ʃ] - school, scholarship, [dʒ] - jumper, subject, [θ] - think, uniform. Now let's play 'Sound Chain' game!",
         students:
-          "Анализируют примеры, вспоминают правила употребления прошедших времен",
-        time: "2 мин",
-        materials: "Grammar examples on slides, detective magnifying glasses",
-        gameElement: "🏆 Fastest correct answer = +5 bonus points",
+          "Повторяют звуки, участвуют в фонетической игре, тренируют произношение",
+        time: "3 мин",
+        materials: "Фонетические карточки, аудиозаписи звуков",
+        gameElement:
+          "🔊 Sound Chain: каждое правильное слово = +1 балл, команда-победитель получает +5 баллов",
       },
     ],
   },
   "new-material": {
-    title: "📚 3. Объяснение нового материала",
-    duration: "8 минут",
-    pedagogicalGoal: "Изучение нового лексического и грамматического материала",
+    title: "📚 2. Основной этап - Первичное усвоение новых знаний",
+    duration: "12 минут",
+    pedagogicalGoal: "Введение и первичное усвоение новой лексики по теме",
     activities: [
       {
-        step: "Vocabulary Treasure Hunt",
+        step: "Введение новой лексики",
         teacher:
-          "Find the hidden words around the classroom! Each word from Spotlight 8 p.42-43 is worth different points. Let's discover new school vocabulary!",
+          "Look at the screen. Here are new words about school life and uniform. Let's read them together and guess the meanings. Can you match the words with the pictures?",
         students:
-          "Ищут спрятанные карточки со словами, изучают новую лексику через контекст",
-        time: "5 мин",
+          "Знакомятся с новыми словами, читают вслед за учителем, соотносят слова с картинками",
+        time: "6 мин",
         materials:
-          "Hidden vocabulary cards (Spotlight 8 p.42), treasure chest, mind map templates",
+          "Презентация с новой лексикой, картинки школьной формы и предметов, Spotlight 8 p.42",
         gameElement:
-          "💎 Редкие слова стоят больше баллов. Achievement: 'Vocabulary Hunter'",
+          "🎯 Word-Picture Match: +2 балла за каждое правильное соответствие",
       },
       {
-        step: "Grammar Timeline Introduction",
+        step: "Семантизация лексики",
         teacher:
-          "Look at this school story timeline. Notice how we use different past tenses to show when things happened. Past Perfect shows what happened first, Past Simple shows main events...",
+          "Now let's understand these words better. I'll give you definitions, and you guess the word. For example: 'A school where students live and study' - boarding school. Your turn!",
         students:
-          "Анализируют примеры употребления прошедших времен, выводят правила",
+          "Угадывают слова по дефинициям, объясняют значения новых слов",
+        time: "6 мин",
+        materials: "Карточки с дефинициями, словари, интерактивная доска",
+        gameElement:
+          "🧩 Definition Game: самый быстрый правильный ответ = +5 баллов",
+      },
+    ],
+  },
+  "primary-check": {
+    title: "✅ 2.1 Первичная проверка понимания",
+    duration: "8 минут",
+    pedagogicalGoal:
+      "Проверка понимания усвоенной лексики и готовности к дальнейшей работе",
+    activities: [
+      {
+        step: "Контроль понимания новой лексики",
+        teacher:
+          "Time to check your understanding! I'll show you pictures, and you name the items. Then we'll play 'True or False' about school uniform and subjects.",
+        students:
+          "Называют предметы по картинкам, участвуют в игре 'Верно-неверно'",
+        time: "5 мин",
+        materials: "Картинки школьной формы, карточки True/False, презентация",
+        gameElement:
+          "✅ True/False Challenge: +3 балла за правильный ответ с объяснением",
+      },
+      {
+        step: "Работа с учебником",
+        teacher:
+          "Open your books at page 42. Let's look at exercise 1. Read the words and match them with the correct pictures. Work in pairs and check each other.",
+        students:
+          "Работают с учебником в парах, выполняют упражнения на соотнесение",
         time: "3 мин",
-        materials:
-          "Grammar timeline poster, example sentences, reference cards",
-        gameElement: "🔍 Интерактивная временная линия с анимацией",
+        materials: "Spotlight 8 Student's Book p.42, рабочие листы",
+        gameElement:
+          "👥 Pair Work Bonus: первая пара с правильными ответами получает +8 баллов",
       },
     ],
   },
   "primary-practice": {
-    title: "🔧 4. Первичное закрепление",
-    duration: "7 минут",
-    pedagogicalGoal: "Первичное закрепление с проговариванием во внешней речи",
+    title: "🔧 2.2 Первичное закрепление",
+    duration: "10 минут",
+    pedagogicalGoal: "Закрепление новых знаний в речевых упражнениях",
     activities: [
       {
-        step: "Past Time Detective Work",
+        step: "Описание школьной формы",
         teacher:
-          "Solve the grammar mystery! Read school stories and find examples of Past Perfect, Past Perfect Continuous, Past Simple, Past Continuous. Work together and explain your choices!",
+          "Look at these students from different schools. Describe their uniforms using new vocabulary. What are they wearing? Do you like these uniforms? Why?",
         students:
-          "Анализируют тексты, находят различные прошедшие времена, объясняют выбор",
+          "Описывают школьную форму, используя новую лексику, выражают свое мнение",
+        time: "5 мин",
+        materials: "Фотографии учеников в разной школьной форме, речевые опоры",
+        gameElement:
+          "👔 Fashion Description: самое полное описание = +10 баллов",
+      },
+      {
+        step: "Диалог о школьных предметах",
+        teacher:
+          "Create mini-dialogues about school subjects. Ask your partner about their favorite and least favorite subjects. Use phrases: 'What's your favorite subject?', 'I love/hate/don't mind...', 'It's boring/exciting/useful'",
+        students:
+          "Составляют мини-диалоги о школьных предметах, выражают отношение к предметам",
         time: "5 мин",
         materials:
-          "School life stories with mixed past tenses, detective worksheets",
+          "Карточки с названиями предметов, речевые клише, диалоговые опоры",
         gameElement:
-          "🔍 За каждое правильно найденное время +5 баллов. Badge: 'Time Detective'",
-      },
-      {
-        step: "Vocabulary in Action",
-        teacher:
-          "Use new school words in sentences! Each team creates sentences with new vocabulary. Explain what each word means!",
-        students:
-          "Составляют предложения с новой лексикой, объясняют значения слов",
-        time: "2 мин",
-        materials: "New vocabulary cards, sentence builders",
-        gameElement: "⚡ Creative sentences get bonus points",
-      },
-    ],
-  },
-  application: {
-    title: "🎮 5. Применение знаний",
-    duration: "12 минут",
-    pedagogicalGoal: "Самостоятельная работа с самопроверкой по эталону",
-    activities: [
-      {
-        step: "School Subjects Battle Royale",
-        teacher:
-          "Time for subjects showdown! Teams compete in describing subjects using only actions - no words allowed! Express your attitude to different subjects!",
-        students:
-          "Показывают предметы через пантомиму, выражают отношение к предметам",
-        time: "5 мин",
-        materials:
-          "Subject cards from Spotlight 8, opinion expression templates",
-        gameElement:
-          "⚡ Быстрые ответы дают x2 баллы. Award: 'Drama King/Queen'",
-      },
-      {
-        step: "Perfect School Day Design Challenge",
-        teacher:
-          "Create the ultimate school timetable using new vocabulary and past tenses! Tell us what had happened in your ideal school day!",
-        students:
-          "Создают идеальное расписание, используя новую лексику и грамматику самостоятельно",
-        time: "7 мин",
-        materials:
-          "Design sheets, vocabulary bank, timeline helpers, etalon examples",
-        gameElement: "🎨 Golden Schedule Award (+25 баллов) за креативность",
+          "💬 Dialogue Competition: лучший диалог получает +12 баллов",
       },
     ],
   },
   control: {
-    title: "✅ 6. Контроль и оценка",
-    duration: "5 минут",
-    pedagogicalGoal: "Выявление качества и уровня усвоения знаний",
+    title: "📋 2.3 Контроль усвоения",
+    duration: "8 минут",
+    pedagogicalGoal: "Контроль усвоения новых знаний и выявление ошибок",
     activities: [
       {
-        step: "Grammar & Vocabulary Assessment",
+        step: "Лексический тест",
         teacher:
-          "Let's check your quest progress! Complete these school life sentences using correct past tenses and new vocabulary. Compare with answer key!",
-        students:
-          "Выполняют контрольные задания, сверяют с эталоном, выявляют ошибки",
-        time: "3 мин",
-        materials: "Assessment cards, answer keys, error correction sheets",
-        gameElement: "📊 Честная самооценка дает bonus points",
+          "Time for a quick vocabulary test! Complete the sentences with the correct words. You have 5 minutes. Work individually, then we'll check together.",
+        students: "Выполняют индивидуальный лексический тест, проверяют ответы",
+        time: "5 мин",
+        materials: "Тестовые карточки, ключи для проверки, секундомер",
+        gameElement:
+          "📝 Test Challenge: 90-100% правильных ответов = +15 баллов команде",
       },
       {
-        step: "Peer Assessment & Team Scoring",
+        step: "Обсуждение ошибок и коррекция",
         teacher:
-          "Evaluate other teams' work! Check their school schedules and timelines. Give constructive feedback!",
-        students: "Проводят взаимооценку работ команд, дают обратную связь",
-        time: "2 мин",
-        materials: "Peer assessment rubrics, feedback forms",
-        gameElement: "🎯 Качественная обратная связь = +10 баллов",
+          "Let's check your tests together. What were the most difficult words? Why did you make these mistakes? How can we remember these words better?",
+        students:
+          "Анализируют свои ошибки, обсуждают трудности, предлагают способы запоминания",
+        time: "3 мин",
+        materials: "Результаты тестов, таблица типичных ошибок",
+        gameElement:
+          "🔍 Error Analysis: полезное объяснение ошибки = +5 баллов",
       },
     ],
   },
   reflection: {
-    title: "🤔 7. Рефлексия",
-    duration: "4 минуты",
-    pedagogicalGoal: "Осознание учащимися своей УД, самооценка результатов",
+    title: "🤔 3. Заключительный этап - Подведение итогов",
+    duration: "7 минут",
+    pedagogicalGoal: "Подведение итогов урока, рефлексия и домашнее задание",
     activities: [
       {
-        step: "Victory Ceremony & Learning Reflection",
+        step: "Рефлексия учебной деятельности",
         teacher:
-          "Let's crown our Education Champions! What was the most challenging part? Which grammar rule is now clearer? How do you feel about your progress?",
+          "What have we learned today? What new words do you remember? How do you feel about school uniform now? What was the most interesting part of the lesson?",
         students:
-          "Анализируют свою деятельность, оценивают достижение целей, рефлексируют",
-        time: "3 мин",
-        materials: "Reflection cards, achievement badges, progress tracker",
-        gameElement: "🏆 Персональные достижения и командные титулы",
-      },
-      {
-        step: "Level Assessment & Confidence Check",
-        teacher:
-          "Rate your adventure! Show your confidence level: Beginner Explorer (1-2), Confident Navigator (3-4), Master Detective (5)!",
-        students: "Оценивают уровень понимания и уверенности в материале",
-        time: "1 мин",
-        materials: "Confidence level cards, self-assessment scale",
-        gameElement: "⭐ Personal achievement badge по итогам урока",
-      },
-    ],
-  },
-  homework: {
-    title: "🏠 8. Домашнее задание",
-    duration: "3 минуты",
-    pedagogicalGoal: "Инструктаж по выполнению домашнего задания",
-    activities: [
-      {
-        step: "Creative School Timeline Project",
-        teacher:
-          "Your mission continues at home! Create a creative timeline of your school life using new vocabulary and past tenses. Include photos, drawings, or digital elements!",
-        students: "Получают инструкции по домашнему заданию, задают вопросы",
-        time: "2 мин",
-        materials:
-          "Project instruction cards, timeline templates, example gallery",
+          "Подводят итоги урока, анализируют свои достижения, выражают эмоции от урока",
+        time: "4 мин",
+        materials: "Карточки рефлексии, смайлики для оценки настроения",
         gameElement:
-          "🎨 Best timeline presentation gets featured in class gallery",
+          "⭐ Reflection Stars: каждый вывод = +2 балла, итоговые призы командам",
       },
       {
-        step: "Workbook Practice & Vocabulary Review",
+        step: "Домашнее задание и инструктаж",
         teacher:
-          "Complete Workbook exercises on page 28-29. Review new vocabulary using our class Quizlet set. Next lesson we'll have a vocabulary quiz!",
-        students: "Записывают домашнее задание, уточняют детали выполнения",
-        time: "1 мин",
-        materials: "Workbook, vocabulary list, digital resource links",
-        gameElement: "📚 Completed homework = entrance ticket to next quest",
+          "Your homework: Workbook p.25 ex.1,2 - vocabulary practice. Also, prepare a short story about your ideal school uniform (5-6 sentences). Any questions about homework?",
+        students:
+          "Записывают домашнее задание, задают вопросы по его выполнению",
+        time: "3 мин",
+        materials: "Workbook, образец выполнения домашнего задания, инструкция",
+        gameElement:
+          "📚 Homework Preparation: готовность к записи = командный бонус +10 баллов",
       },
     ],
   },
