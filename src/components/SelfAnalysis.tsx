@@ -351,6 +351,176 @@ const SelfAnalysis = () => {
             </div>
           </div>
         </div>
+
+        {/* Краткий самоанализ урока */}
+        <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+            <Icon name="CheckSquare" size={28} className="text-indigo-600" />
+            Краткий самоанализ урока
+          </h2>
+
+          <div className="space-y-6">
+            <div className="bg-gradient-to-r from-indigo-50 to-blue-50 rounded-xl p-6">
+              <h3 className="text-lg font-semibold text-indigo-900 mb-4">
+                📋 Соответствие требованиям ФГОС
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <Icon name="Check" size={16} className="text-green-600" />
+                    <span className="text-sm text-gray-700">
+                      Системно-деятельностный подход реализован
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="Check" size={16} className="text-green-600" />
+                    <span className="text-sm text-gray-700">
+                      Формирование всех групп УУД
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="Check" size={16} className="text-green-600" />
+                    <span className="text-sm text-gray-700">
+                      Личностно-ориентированный подход
+                    </span>
+                  </div>
+                </div>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <Icon name="Check" size={16} className="text-green-600" />
+                    <span className="text-sm text-gray-700">
+                      Компетентностный подход
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="Check" size={16} className="text-green-600" />
+                    <span className="text-sm text-gray-700">
+                      Использование ИКТ и игровых технологий
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="Check" size={16} className="text-green-600" />
+                    <span className="text-sm text-gray-700">
+                      Здоровьесберегающие технологии
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-6">
+              <h3 className="text-lg font-semibold text-green-900 mb-4">
+                🎯 Достижение поставленных целей
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-green-700">90%</div>
+                  <div className="text-xs text-green-600">
+                    Предметные результаты
+                  </div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-green-700">85%</div>
+                  <div className="text-xs text-green-600">
+                    Метапредметные результаты
+                  </div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-green-700">88%</div>
+                  <div className="text-xs text-green-600">
+                    Личностные результаты
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-xl p-6">
+              <h3 className="text-lg font-semibold text-orange-900 mb-4">
+                💡 Ключевые особенности урока
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-700">
+                <div>
+                  <p className="mb-2">
+                    <strong>Тип урока:</strong> Комбинированный урок открытия
+                    нового знания
+                  </p>
+                  <p className="mb-2">
+                    <strong>Структура:</strong> 7 этапов согласно ФГОС с
+                    переходами
+                  </p>
+                  <p>
+                    <strong>Формы работы:</strong> Индивидуальная, парная,
+                    командная, фронтальная
+                  </p>
+                </div>
+                <div>
+                  <p className="mb-2">
+                    <strong>Технологии:</strong> Геймификация, ИКТ, проблемное
+                    обучение
+                  </p>
+                  <p className="mb-2">
+                    <strong>Мотивация:</strong> Игровые элементы, квест,
+                    соревнования
+                  </p>
+                  <p>
+                    <strong>Оценивание:</strong> Формирующее, критериальное,
+                    peer-assessment
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-6">
+              <h3 className="text-lg font-semibold text-purple-900 mb-4">
+                📊 Эффективность методов
+              </h3>
+              <div className="space-y-3">
+                <div className="flex justify-between items-center">
+                  <span className="text-sm text-gray-700">
+                    Геймификация (квест, баллы, соревнования)
+                  </span>
+                  <div className="flex items-center gap-2">
+                    <div className="w-20 bg-purple-200 rounded-full h-2">
+                      <div
+                        className="bg-purple-600 h-2 rounded-full"
+                        style={{ width: "95%" }}
+                      ></div>
+                    </div>
+                    <span className="text-xs text-purple-700">95%</span>
+                  </div>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-sm text-gray-700">
+                    ИКТ (Kahoot, TikTok, QR-коды)
+                  </span>
+                  <div className="flex items-center gap-2">
+                    <div className="w-20 bg-blue-200 rounded-full h-2">
+                      <div
+                        className="bg-blue-600 h-2 rounded-full"
+                        style={{ width: "92%" }}
+                      ></div>
+                    </div>
+                    <span className="text-xs text-blue-700">92%</span>
+                  </div>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-sm text-gray-700">
+                    Активные методы (ролевые игры, проекты)
+                  </span>
+                  <div className="flex items-center gap-2">
+                    <div className="w-20 bg-green-200 rounded-full h-2">
+                      <div
+                        className="bg-green-600 h-2 rounded-full"
+                        style={{ width: "89%" }}
+                      ></div>
+                    </div>
+                    <span className="text-xs text-green-700">89%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
