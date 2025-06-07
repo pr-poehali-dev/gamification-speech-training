@@ -943,6 +943,177 @@ const LessonPlan = () => {
           </CardContent>
         </Card>
 
+        {/* UMK Information */}
+        <Card className="mt-8 border-2 shadow-lg">
+          <CardHeader className="bg-gradient-to-r from-indigo-500 to-blue-600 text-white rounded-t-lg">
+            <CardTitle className="flex items-center">
+              <Icon name="BookOpen" size={20} className="mr-2" />
+              Учебно-методический комплекс (УМК)
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="pt-6">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div>
+                <h4 className="font-semibold mb-4 text-indigo-900 flex items-center">
+                  <Icon name="Layers" size={18} className="mr-2" />
+                  Основные компоненты УМК:
+                </h4>
+                <div className="space-y-4">
+                  <Card className="p-4 bg-blue-50 border-blue-200">
+                    <h5 className="font-semibold text-blue-800 mb-2">
+                      📚 Учебник
+                    </h5>
+                    <p className="text-sm text-blue-900">
+                      <strong>Spotlight 8</strong> (Английский в фокусе. 8
+                      класс)
+                      <br />
+                      Авторы: Ю.Е. Ваулина, Д. Дули, О.Е. Подоляко, В. Эванс
+                      <br />
+                      Издательство: Просвещение, 2023
+                      <br />
+                      <span className="font-mono bg-blue-100 px-2 py-1 rounded">
+                        ISBN: 978-5-09-103564-8
+                      </span>
+                    </p>
+                  </Card>
+
+                  <Card className="p-4 bg-green-50 border-green-200">
+                    <h5 className="font-semibold text-green-800 mb-2">
+                      📝 Рабочая тетрадь
+                    </h5>
+                    <p className="text-sm text-green-900">
+                      <strong>Spotlight 8 Workbook</strong>
+                      <br />
+                      Авторы: Ю.Е. Ваулина, Д. Дули, О.Е. Подоляко, В. Эванс
+                      <br />
+                      Издательство: Просвещение, 2023
+                      <br />
+                      <span className="font-mono bg-green-100 px-2 py-1 rounded">
+                        ISBN: 978-5-09-103565-5
+                      </span>
+                    </p>
+                  </Card>
+
+                  <Card className="p-4 bg-purple-50 border-purple-200">
+                    <h5 className="font-semibold text-purple-800 mb-2">
+                      👨‍🏫 Книга для учителя
+                    </h5>
+                    <p className="text-sm text-purple-900">
+                      <strong>Spotlight 8 Teacher's Book</strong>
+                      <br />
+                      Авторы: Ю.Е. Ваулина, Д. Дули, О.Е. Подоляко, В. Эванс
+                      <br />
+                      Издательство: Просвещение, 2023
+                      <br />
+                      <span className="font-mono bg-purple-100 px-2 py-1 rounded">
+                        ISBN: 978-5-09-103566-2
+                      </span>
+                    </p>
+                  </Card>
+                </div>
+              </div>
+
+              <div>
+                <h4 className="font-semibold mb-4 text-indigo-900 flex items-center">
+                  <Icon name="Headphones" size={18} className="mr-2" />
+                  Дополнительные компоненты:
+                </h4>
+                <div className="space-y-4">
+                  <Card className="p-4 bg-orange-50 border-orange-200">
+                    <h5 className="font-semibold text-orange-800 mb-2">
+                      🎧 Аудиокурс
+                    </h5>
+                    <p className="text-sm text-orange-900">
+                      <strong>Spotlight 8 Class Audio CDs</strong>
+                      <br />
+                      Издательство: Просвещение, 2023
+                      <br />
+                      <span className="font-mono bg-orange-100 px-2 py-1 rounded">
+                        ISBN: 978-5-09-103567-9
+                      </span>
+                    </p>
+                  </Card>
+
+                  <Card className="p-4 bg-teal-50 border-teal-200">
+                    <h5 className="font-semibold text-teal-800 mb-2">
+                      📊 Контрольные задания
+                    </h5>
+                    <p className="text-sm text-teal-900">
+                      <strong>Spotlight 8 Test Booklet</strong>
+                      <br />
+                      Авторы: Ю.Е. Ваулина, Д. Дули, О.Е. Подоляко, В. Эванс
+                      <br />
+                      Издательство: Просвещение, 2023
+                      <br />
+                      <span className="font-mono bg-teal-100 px-2 py-1 rounded">
+                        ISBN: 978-5-09-103568-6
+                      </span>
+                    </p>
+                  </Card>
+
+                  <Card className="p-4 bg-pink-50 border-pink-200">
+                    <h5 className="font-semibold text-pink-800 mb-2">
+                      💻 Электронные ресурсы
+                    </h5>
+                    <p className="text-sm text-pink-900">
+                      <strong>Цифровые образовательные ресурсы</strong>
+                      <br />
+                      Интерактивные упражнения, видеоматериалы
+                      <br />
+                      Платформа: prosv.ru, MyEnglishPortfolio
+                    </p>
+                  </Card>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-6 p-4 bg-gradient-to-r from-gray-100 to-blue-100 rounded-lg">
+              <h4 className="font-semibold text-gray-900 mb-3 flex items-center">
+                <Icon name="Award" size={18} className="mr-2" />
+                Соответствие образовательным стандартам:
+              </h4>
+              <div className="grid md:grid-cols-2 gap-4 text-sm">
+                <div>
+                  <p className="text-gray-800">
+                    <Icon
+                      name="CheckCircle"
+                      size={16}
+                      className="mr-2 text-green-600 inline"
+                    />
+                    ФГОС ООО (Приказ Минпросвещения России от 31.05.2021 № 287)
+                  </p>
+                  <p className="text-gray-800">
+                    <Icon
+                      name="CheckCircle"
+                      size={16}
+                      className="mr-2 text-green-600 inline"
+                    />
+                    Примерная рабочая программа основного общего образования
+                  </p>
+                </div>
+                <div>
+                  <p className="text-gray-800">
+                    <Icon
+                      name="CheckCircle"
+                      size={16}
+                      className="mr-2 text-green-600 inline"
+                    />
+                    Федеральный перечень учебников (Приказ № 858 от 21.09.2022)
+                  </p>
+                  <p className="text-gray-800">
+                    <Icon
+                      name="CheckCircle"
+                      size={16}
+                      className="mr-2 text-green-600 inline"
+                    />
+                    Уровень A2+ по шкале CEFR
+                  </p>
+                </div>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
         {/* Additional Resources */}
         <Card className="mt-8 border-2 shadow-lg">
           <CardHeader className="bg-gradient-to-r from-green-500 to-teal-600 text-white rounded-t-lg">
