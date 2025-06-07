@@ -106,27 +106,28 @@ export const fgosLessonStages = {
     pedagogicalGoal: "Закрепление новых знаний в речевых упражнениях",
     activities: [
       {
-        step: "Описание школьной формы",
+        step: "🎭 Модный показ школьной формы",
         teacher:
-          "Look at these students from different schools. Describe their uniforms using new vocabulary. What are they wearing? Do you like these uniforms? Why?",
+          "Welcome to our Fashion Show! Each team presents different school uniforms from around the world. Describe what models are wearing, explain pros and cons, and vote for the best uniform!",
         students:
-          "Описывают школьную форму, используя новую лексику, выражают свое мнение",
-        time: "5 мин",
-        materials: "Фотографии учеников в разной школьной форме, речевые опоры",
-        gameElement:
-          "👔 Fashion Description: самое полное описание = +10 баллов",
-      },
-      {
-        step: "Диалог о школьных предметах",
-        teacher:
-          "Create mini-dialogues about school subjects. Ask your partner about their favorite and least favorite subjects. Use phrases: 'What's your favorite subject?', 'I love/hate/don't mind...', 'It's boring/exciting/useful'",
-        students:
-          "Составляют мини-диалоги о школьных предметах, выражают отношение к предметам",
+          "Проводят мини-показ мод, описывают форму разных стран, аргументируют выбор лучшей формы",
         time: "5 мин",
         materials:
-          "Карточки с названиями предметов, речевые клише, диалоговые опоры",
+          "Фото школьной формы разных стран, подиум (класс), карточки для голосования",
         gameElement:
-          "💬 Dialogue Competition: лучший диалог получает +12 баллов",
+          "👗 Fashion Show Champion: лучшая презентация = +15 баллов + титул 'Best Designer'",
+      },
+      {
+        step: "💬 Speed Dating: Школьные предметы",
+        teacher:
+          "Time for Speed Dating with school subjects! Move every 2 minutes. Ask: 'What's your relationship with Math?' Answer like subjects are people: 'Math and I are best friends!' or 'History ignores me!'",
+        students:
+          "Быстро меняют партнеров, обсуждают отношения с предметами как с людьми, используют юмор",
+        time: "5 мин",
+        materials:
+          "Карточки-предметы с 'личностями', музыка для смены партнеров, таймер",
+        gameElement:
+          "💕 Dating Master: самый креативный 'роман' с предметом = +12 баллов",
       },
     ],
   },
@@ -136,25 +137,26 @@ export const fgosLessonStages = {
     pedagogicalGoal: "Контроль усвоения новых знаний и выявление ошибок",
     activities: [
       {
-        step: "Лексический тест",
+        step: "🎮 Kahoot Quiz Battle",
         teacher:
-          "Time for a quick vocabulary test! Complete the sentences with the correct words. You have 5 minutes. Work individually, then we'll check together.",
-        students: "Выполняют индивидуальный лексический тест, проверяют ответы",
-        time: "5 мин",
-        materials: "Тестовые карточки, ключи для проверки, секундомер",
+          "Get your phones ready! Join our Kahoot quiz about school vocabulary. Questions include images, audio, and tricky situations. Who will be the ultimate School Life Expert?",
+        students:
+          "Отвечают на интерактивные вопросы через телефоны, соревнуются в реальном времени",
+        time: "4 мин",
+        materials: "Kahoot-презентация, QR-код для входа, смартфоны учащихся",
         gameElement:
-          "📝 Test Challenge: 90-100% правильных ответов = +15 баллов команде",
+          "🏆 Kahoot Champion: топ-3 игрока получают +20, +15, +10 баллов соответственно",
       },
       {
-        step: "Обсуждение ошибок и коррекция",
+        step: "🕵️ Детектив ошибок",
         teacher:
-          "Let's check your tests together. What were the most difficult words? Why did you make these mistakes? How can we remember these words better?",
+          "Become grammar detectives! Find mistakes in these school stories. Each team gets different story with 5 hidden errors. First team to find all mistakes wins!",
         students:
-          "Анализируют свои ошибки, обсуждают трудности, предлагают способы запоминания",
-        time: "3 мин",
-        materials: "Результаты тестов, таблица типичных ошибок",
+          "Работают в командах, ищут ошибки в текстах, объясняют правильные варианты",
+        time: "4 мин",
+        materials: "Тексты с ошибками, лупы (игрушечные), детективные значки",
         gameElement:
-          "🔍 Error Analysis: полезное объяснение ошибки = +5 баллов",
+          "🔍 Super Detective: команда, нашедшая все ошибки первой = +25 баллов",
       },
     ],
   },
@@ -164,26 +166,28 @@ export const fgosLessonStages = {
     pedagogicalGoal: "Подведение итогов урока, рефлексия и домашнее задание",
     activities: [
       {
-        step: "Рефлексия учебной деятельности",
+        step: "🌟 Звездная рефлексия",
         teacher:
-          "What have we learned today? What new words do you remember? How do you feel about school uniform now? What was the most interesting part of the lesson?",
+          "Rate today's lesson like a movie! Give stars ⭐ for different parts: new words, activities, your mood. Then record a 30-second TikTok-style review of our lesson!",
         students:
-          "Подводят итоги урока, анализируют свои достижения, выражают эмоции от урока",
+          "Оценивают урок по-звездному, записывают короткие видео-отзывы, делятся впечатлениями",
         time: "4 мин",
-        materials: "Карточки рефлексии, смайлики для оценки настроения",
+        materials:
+          "Звездочки-стикеры, планшеты/телефоны для записи, рамка для 'TikTok'",
         gameElement:
-          "⭐ Reflection Stars: каждый вывод = +2 балла, итоговые призы командам",
+          "🎬 Oscar Winner: лучший видео-отзыв = +10 баллов + размещение в классном блоге",
       },
       {
-        step: "Домашнее задание и инструктаж",
+        step: "🎯 Homework Quest",
         teacher:
-          "Your homework: Workbook p.25 ex.1,2 - vocabulary practice. Also, prepare a short story about your ideal school uniform (5-6 sentences). Any questions about homework?",
+          "Your mission, should you choose to accept it: Create a 'School Uniform Design Challenge' post for Instagram. Include: your ideal uniform sketch, 3 hashtags, and explain why it's perfect!",
         students:
-          "Записывают домашнее задание, задают вопросы по его выполнению",
+          "Получают творческое задание в стиле квеста, планируют создание креативного контента",
         time: "3 мин",
-        materials: "Workbook, образец выполнения домашнего задания, инструкция",
+        materials:
+          "Карточки-миссии, примеры Instagram-постов, QR-код с инструкцией",
         gameElement:
-          "📚 Homework Preparation: готовность к записи = командный бонус +10 баллов",
+          "📱 Instagram Star: лучший пост на следующем уроке = +15 баллов + публикация в школьном аккаунте",
       },
     ],
   },
