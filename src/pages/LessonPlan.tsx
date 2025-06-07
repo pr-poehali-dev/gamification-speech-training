@@ -765,7 +765,7 @@ const LessonPlan = () => {
                       Знания:
                     </h4>
                     <ul className="text-sm space-y-1">
-                      {lessonData.plannedResults.subject.knowledge.map(
+                      {lessonData.plannedResults.subject.knowledge?.map(
                         (item, index) => (
                           <li key={index} className="flex items-start">
                             <Icon
@@ -776,7 +776,7 @@ const LessonPlan = () => {
                             <span>{item}</span>
                           </li>
                         ),
-                      )}
+                      ) || []}
                     </ul>
                   </div>
                   <div>
@@ -784,7 +784,7 @@ const LessonPlan = () => {
                       Умения:
                     </h4>
                     <ul className="text-sm space-y-1">
-                      {lessonData.plannedResults.subject.skills.map(
+                      {lessonData.plannedResults.subject.skills?.map(
                         (item, index) => (
                           <li key={index} className="flex items-start">
                             <Icon
@@ -795,7 +795,7 @@ const LessonPlan = () => {
                             <span>{item}</span>
                           </li>
                         ),
-                      )}
+                      ) || []}
                     </ul>
                   </div>
                 </div>
